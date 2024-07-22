@@ -1,5 +1,7 @@
 # Tesla Battery Configurator
 
+<img width="1380" alt="Screenshot 2024-07-22 at 1 35 20 AM" src="https://github.com/user-attachments/assets/a957d203-6851-4bfa-a692-e94cf5bbdefb">
+
 ## Available Scripts
 
 In the project directory, you can run:
