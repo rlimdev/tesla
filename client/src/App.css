@@ -1,0 +1,150 @@
+body {
+  font-family: 'Universal Sans Display', -apple-system, Arial, sans-serif;
+}
+
+.battery {
+  border: 1px solid black;
+  font-size: 12px;
+  background-color: rgb(244, 244, 244);
+  cursor: pointer;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 400px;
+}
+
+.caption {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(92, 94, 98);
+  margin-top: 10px;
+}
+
+.container {
+  background-image: 
+  linear-gradient(to right, rgba(200, 200, 200, 0.5) 1px, transparent 1px),
+  linear-gradient(to bottom, rgba(200, 200, 200, 0.5) 1px, transparent 1px);
+  border: 1px solid rgb(91, 90, 90);
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+  width: 1000px;
+  background-size: 100px 100px;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: 1000px;
+}
+
+.total-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  max-width: 600px;
+}
+
+.total-item {
+  padding: 10px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.total-item p {
+  margin: 0;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 56px;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.language {
+  height: 34px;
+  width: 72px;
+}
+
+.logo {
+  height: 32px;
+  width: 140px;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.mpxl {
+  width: 400px;
+}
+
+.mp {
+  width: 300px;
+}
+
+.mp2 {
+  width: 300px;
+}
+
+.pp {
+  width: 100px;
+}
+
+.table {
+  text-align: left;
+  width: 600px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  max-width: 800px;
+}
+
+.grid-header {
+  display: contents;
+  font-weight: bold;
+}
+
+.grid-header > div {
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #ddd;
+}
+
+.grid-item {
+  display: contents;
+}
+
+.grid-item > div {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.grid-item input {
+  width: 100%;
+}
